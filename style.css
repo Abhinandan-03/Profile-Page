@@ -32,7 +32,8 @@ details{
 }
 .acad,
 .skills,
-.hobbies{
+.hobbies,
+.projects{
     color: white;
     padding: 10px 16px;
     font-size: 30px;
@@ -51,9 +52,13 @@ details{
 .hobbies{
     background-color: blue;
 }
+.projects{
+    background-color: #0f172a;
+}
 .acad:hover,
 .skills:hover,
-.hobbies:hover{
+.hobbies:hover,
+.projects:hover{
     background-color: grey;
     transform: translateY(-2px);
 }
