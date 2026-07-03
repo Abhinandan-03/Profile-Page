@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header{
+    display: block;
+    width: fit-content;
+    max-width: 320px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+header .name{
+    font-family: 'Algerian', Arial, sans-serif;
+    font-size: 40px;
+    color: rgb(127, 72, 20);
+}
+header img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+details{
+    display: inline-block;
+    text-align: center;
+    margin: 15px 10px;
+}
+.acad,
+.skills,
+.hobbies{
+    color: white;
+    padding: 10px 16px;
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 6px;
+    display: inline-block;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    cursor: pointer;
+}
+.acad{
+    background-color: #1e293b;
+}
+.skills{
+    background-color: #334155;
+}
+.hobbies{
+    background-color: blue;
+}
+.acad:hover,
+.skills:hover,
+.hobbies:hover{
+    background-color: grey;
+    transform: translateY(-2px);
+}
+.links{
+    border: 1px solid black;
+    display: inline-block;
+    padding: 15px 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+.links img{
+    width: 40px;
+    height: 40px;
+    transition: transform 0.2s ease, filter 0.2s ease, box-shadow 0.2s ease;
+}
+.links img:hover{
+    transform: scale(1.1);
+    filter: brightness(1.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+p{
+    font-size: 25px;
+}
+h4{
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
